@@ -27,6 +27,19 @@ header .slogan {
     font-weight: bold;
 }
 
+/* Hours of Operation Styling */
+.hours-container {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    background-color: #333;
+    padding: 10px;
+    text-shadow: 2px 2px 4px black;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
 nav {
     background: #2e7d32; /* Green */
     padding: 0.5rem;
