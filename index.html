@@ -3,60 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laurel Street Recyclers</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Laurel Street Recyclers Inc - Responsible Metal Recycling in Reading, PA">
+    <title>Laurel Street Recyclers Inc</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <div class="logo-container">
+            <img src="assets/recycling_logo.png" alt="Recycling Logo" class="recycling-logo">
+        </div>
+        <h1>Laurel Street Recyclers Inc</h1>
+        <p class="slogan">Recycling Makes Cent$</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="home" class="section-container">
+        <h2>Welcome to Laurel Street Recyclers Inc</h2>
+        <p>Your trusted partner for metal recycling in Reading, PA.</p>
+    </section>
+    <section id="services" class="section-container">
+        <h2>Our Services</h2>
+        <div class="service-grid">
+            <div class="service-item">Aluminum Recycling</div>
+            <div class="service-item">Brass and Copper Recycling</div>
+            <div class="service-item">Steel and Iron Recycling</div>
+            <div class="service-item">Cast Iron Recycling</div>
+            <div class="service-item">Electric Motors and Wire Recycling</div>
+            <div class="service-item">Appliance Drop-Off (Freon-Free and Fully Drained)</div>
+        </div>
+    </section>
+    <section id="pricing" class="section-container">
+        <h2>Current Scrap Prices</h2>
+        <p>Call us at (610) 376-2997 for the latest pricing on scrap metals.</p>
+    </section>
+    <section id="about" class="section-container">
+        <h2>About Us</h2>
+        <p>Laurel Street Recyclers Inc has been serving the Reading, PA community for 69 years. We are committed to environmental sustainability and responsible recycling.</p>
+    </section>
+    <section id="contact" class="section-container">
+        <h2>Contact Us</h2>
+        <p>Address: 761 Laurel St., Reading, PA 19602</p>
+        <p>Phone: (610) 376-2997</p>
+        <p>Email: <a href="mailto:laurelstreetrec@aol.com">laurelstreetrec@aol.com</a></p>
+        <p>Hours: Monday – Friday: 6:30 AM – 4:00 PM, Saturday: 6:30 AM – 11:30 AM</p>
+        
+        <form action="https://formspree.io/f/your-form-id" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
 
-    <!-- Logo -->
-    <div class="logo-container">
-        <img src="assets/recycling_logo.png" alt="Recycling Logo">
-    </div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
 
-    <!-- Business Name and Slogan -->
-    <h1>Laurel Street Recyclers</h1>
-    <h2>Recycling Makes C-E-N-T$</h2>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone">
 
-    <!-- Hours of Operation -->
-    <div class="hours">
-        <p>Monday – Friday: 6:30 AM – 4:00 PM</p>
-        <p>Saturday: 6:30 AM – 11:30 AM</p>
-    </div>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
 
-    <!-- Services -->
-    <h2>Our Services</h2>
-    <ul>
-        <li>Steel and Iron
-            <ul>
-                <li>Cast Iron</li>
-            </ul>
-        </li>
-        <li>Copper</li>
-        <li>Aluminum</li>
-        <li>Brass</li>
-        <li>Lead</li>
-        <li>Batteries</li>
-    </ul>
-
-    <!-- Contact Form -->
-    <h2>Contact Us</h2>
-    <form action="https://formspree.io/f/your-form-id" method="POST">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-
-        <label for="phone">Phone Number:</label>
-        <input type="tel" id="phone" name="phone">
-
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" required></textarea>
-
-        <button type="submit">Send</button>
-    </form>
-
-    <p>Email: <a href="mailto:laurelstreetrec@aol.com">laurelstreetrec@aol.com</a></p>
-
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2025 Laurel Street Recyclers Inc. All rights reserved.</p>
+    </footer>
 </body>
 </html>
